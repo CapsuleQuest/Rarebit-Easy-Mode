@@ -4,7 +4,8 @@ HELLO!
 
 This is a modified version of Rarebit (https://rarebit.neocities.org/). I wanted a really clean version of it to place on itch.io, that didnt have all the other pages/text descrition/etc. You can load a zip file containing html onto itch.io and itch with just run the webpage, which is so nice!
 
-In order to use this you need to do a few things.
+In order to use this you need to do a few things. To start, select the green "<> CODE" button above the files and download a .zip of all the files in this repository.
+After that just follow these steps!
 
 1. Draw your comic (the hard part)
 	Have the individual image files labeled as "pgX.jpg" where the X is the page number. Pages will start at 1.
