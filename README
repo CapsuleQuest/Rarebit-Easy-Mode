@@ -5,31 +5,34 @@ HELLO!
 This is a modified version of Rarebit (https://rarebit.neocities.org/). I wanted a really clean version of it to place on itch.io, that didnt have all the other pages/text descrition/etc. 
 You can load a zip file containing html onto itch.io and itch with just run the webpage, which is so nice!
 
-In order to use this you need to do a few things. To start, select the green "<> CODE" button above the files and download a .zip of all the files in this repository.
-After that just follow these steps!
+In order to use this you need to do a few things. 
 
-1. Draw your comic (the hard part)
+1.To start, select the green "<> CODE" button above the files and download a .zip of all the files in this repository. 
+	Unzip it somewhere on your computer so you can start editing the files
+
+
+2. Draw your comic (the hard part)
 	Have the individual image files labeled as "pgX.jpg" where the X is the page number. Pages will start at 1.
 	For now the files must be JPGs, there are ways to change that if you really want, if you really want another file type, go investigate the comic_settings.js file
 
 	Place the images for your comic in the folder "img/comics"
 			
 
-2. Set the number of pages 
+3. Set the number of pages 
 	In the comic_settings.js file (in the js folder), there is a variable near the top called maxpg that will tell your website the total number of pages in your comic. 
 	Change the number value there to the amount of pages in the img/comics folder/
 
 
-3. Zip the folder.
+4. Zip the folder.
 	Create a zip of the folder used to make this project so you can throw it on itch.io
 
 
 OPTIONAL STEPS ////
 
-4. Change the arrows that appear at the bottom of the comic.
+5. Change the arrows that appear at the bottom of the comic.
 	You can find these in img/comicnav. Either edit them, or replace them with images of something different. Make sure the file name remains the same.
 
-5. Set the background of the comic. 
+6. Set the background of the comic. 
 	By default the background of webpage is transparent, but you can set it to a specific color in the style.css file in the css folder. (there are also ways to change the background on itch, 
 	but sometimes its just easier to change it in the file)
 	There is a group of code near the top with the label of /* universal background color */. if you look below that there's a line that says
